@@ -1,0 +1,45 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+    fondo:{
+        flex:1,
+        backgroundColor:'black',
+    },
+    calculadoraContainer:{
+        flex:1,
+        paddingHorizontal:20,
+        justifyContent:'flex-end',
+    },
+    resultado:{
+        color:'white',
+        fontSize:60,
+        textAlign:'right',
+    },
+    resultadoPequenio:{
+        color:'gray',
+        fontSize:30,
+        textAlign:'right',
+    },
+    fila:{
+        flexDirection:'row',
+        justifyContent:'center',
+        marginBotton:18,
+        paddingHorizontal:10,
+        paddingVertical:5,
+    },
+    boton:{
+        height:80,
+        width:80,
+        backgroundColor:'#1C1C1C',
+        borderRadius:100,
+        justifyContent:'center',
+        marginHorizontal:10,
+    },
+    botonTexto:{
+        textAlign:'center',
+        padding:10,
+        fontSize:30,
+        color:'Black',
+        fontWeight:'500',
+    }
+});
