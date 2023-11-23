@@ -8,8 +8,6 @@ export const styles = StyleSheet.create({
     },
     container2: {
         ...StyleSheet.absoluteFillObject,
-        //height: 400,
-        //width: 400,
         flex:1,
         justifyContent: 'flex-end',
         alignItems: 'center',

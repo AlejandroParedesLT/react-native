@@ -35,7 +35,7 @@ const MenuInterno = ({navigation}: DrawerContentComponentProps<DrawerContentOpti
                 />
             </View>
             <View style={styles.menuContainer}>
-                <TouchableOpacity 
+                <TouchableOpacity
                     style={styles.menuBoton}
                     onPress={()=> navigation.navigate('Tabs')}
                 >
